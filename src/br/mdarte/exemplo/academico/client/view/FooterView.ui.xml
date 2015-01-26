@@ -1,0 +1,8 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<g:HTMLPanel styleName="footer">
+		<g:Anchor href="http://code.google.com/p/mvp4g">Mvp4g Website</g:Anchor>
+		<g:Anchor href="http://mvp4g.blogspot.com/">Blog</g:Anchor>
+	</g:HTMLPanel>
+</ui:UiBinder> 
