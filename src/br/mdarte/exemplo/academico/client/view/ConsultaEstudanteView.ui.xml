@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	
+	<g:HTMLPanel>
+
+		<table>
+			<tr>
+				<td><g:Label>Aluno</g:Label></td>
+				<td><g:TextBox ui:field="textbox" /></td>
+				
+			</tr>
+			<tr>
+				<td><g:Button ui:field="consultaButton" >Consultar </g:Button></td>
+			</tr>
+		</table>
+
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

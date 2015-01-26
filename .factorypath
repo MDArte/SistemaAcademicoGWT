@@ -1,0 +1,4 @@
+<factorypath>
+    <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/SistemaAcademicoGWT/war/WEB-INF/lib/mvp4g-1.5.0.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
