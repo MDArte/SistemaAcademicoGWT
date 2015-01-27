@@ -10,20 +10,10 @@
 		<servlet-name>estudante</servlet-name>
 		<servlet-class>br.mdarte.exemplo.academico.server.EstudanteServiceImpl</servlet-class>
 	</servlet>
-	
-	<servlet>
-		<servlet-name>controleacesso</servlet-name>
-		<servlet-class>br.mdarte.exemplo.academico.server.ControleAcessoServiceImpl</servlet-class>
-	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>estudante</servlet-name>
 		<url-pattern>/sistemaacademicogwt/estudante</url-pattern>
-	</servlet-mapping>
-	
-	<servlet-mapping>
-		<servlet-name>controleacesso</servlet-name>
-		<url-pattern>/sistemaacademicogwt/controleacesso</url-pattern>
 	</servlet-mapping>
 
 	<!-- Default page to serve -->
@@ -31,4 +21,4 @@
 		<welcome-file>SistemaAcademicoGWT.html</welcome-file>
 	</welcome-file-list>
 
-</web-app>
+</web-app>app>
