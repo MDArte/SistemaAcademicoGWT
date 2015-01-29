@@ -71,6 +71,7 @@ public class ResultadoConsultaView extends ReverseCompositeView<ResultadoConsult
 	@Override
 	public void deleteRow(EstudanteVO estudante)
 	{
+		studentTable.clearSelection();
 		tableBuilder.deleteRow(estudante);
 	}
 

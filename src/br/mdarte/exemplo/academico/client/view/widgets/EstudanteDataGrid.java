@@ -85,6 +85,10 @@ public class EstudanteDataGrid extends Composite implements HasClickHandlers
 		this.built = built;
 	}
 	
+	public void clearSelection() {
+		((MultiSelectionModel<EstudanteVO>) dataGrid.getSelectionModel()).clear();
+	}
+	
 	public Collection<EstudanteVO> getSelection() {
 		MultiSelectionModel<EstudanteVO> selectionModel = (MultiSelectionModel<EstudanteVO>) dataGrid.getSelectionModel();
 		
