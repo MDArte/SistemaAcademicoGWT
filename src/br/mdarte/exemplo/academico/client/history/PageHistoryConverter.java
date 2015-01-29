@@ -37,6 +37,7 @@ public class PageHistoryConverter implements HistoryConverter<SistemaAcademicoEv
 			}
 			else eventBus.dispatch(name,trueParam);
 		}
+		else eventBus.dispatch(name);
 	}
 	
 	// convertToToken transforma o parametro em um token para aparecer na barra de endereços
